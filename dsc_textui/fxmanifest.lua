@@ -16,6 +16,6 @@ ui_page {
 files {
     "web/*.html",
     "web/*.js",
-    "ui/*.css",
+    "web/*.css",
     "web/letras/*.ttf"
 }
