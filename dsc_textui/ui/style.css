@@ -1,0 +1,65 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/1.ttf);
+}
+
+* {
+	font-family: font1;
+	text-shadow: 1px 1px #000000;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.container {
+    position: absolute;
+    left: 0.3vw;
+    top: 35vw;
+    height: 7px;
+    padding: .7vw;
+    max-width: 45vw;
+    transform: translateY(-50%);
+    background-color: rgba(12, 82, 233, 0.93);
+    box-shadow: 0 0 10px rgb(12, 0, 175);
+    line-height: 7.8px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 13px;    
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+
+.INPUT_CONTEXT {
+    border-radius: .15vw;
+    background-color: #ccc;
+    padding: .4px .3vw;
+    color: #000000;
+    text-shadow: 0 0 .0vw #000000;
+    font-weight: bolder;
+}
+
+.container-show {
+    animation: show .5s ease-in-out forwards;
+}
+
+.container-hide {
+    animation: leave .5s ease-in-out forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateX(800px) translateY(0vw) scale(.5);
+    }
+}
+
+@keyframes leave {
+    to {
+        opacity: 0;
+        transform: translateX(500%) translateY(0vw) scale(.5);
+    }
+}
