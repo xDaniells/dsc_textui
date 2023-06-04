@@ -28,4 +28,5 @@ function sendNUIMessageText(msg)
 end
 
 exports("Help", sendNUIMessageText)
-print("Text UI - Ready")
+print("Credits: Jaareet#0542")
+print("DSC-Company - Text UI - Ready")
