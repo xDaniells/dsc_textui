@@ -28,4 +28,4 @@ function sendNUIMessageText(msg)
 end
 
 exports("Help", sendNUIMessageText)
-print("DSC Company CO - Text UI - Ready")
+print("Text UI - Ready")
